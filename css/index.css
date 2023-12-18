@@ -552,3 +552,48 @@ main .darkfilter {
 .Name { grid-area: Name; height: fit-content; width: max-content; font-size: 24px; font-weight: bold}
 
 .job { grid-area: job; height: fit-content; width: fit-content; font-size: 18px; font-weight: 300}
+
+.screen6 button {
+    width: 370px;
+    height: 58px;
+    font-size: 18px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.screen6 button:hover {
+    color: #EC7979;
+    border-color: #EC7979;
+    transition: all .2s ease-out;
+}
+
+.screen6 button:active {
+    background-color: #AB4949;
+    border-color: #AB4949;
+    color: white;
+    transition: all .2s ease-out;
+}
+
+.screen6 .subtitle-div {
+    color: white;
+}
+
+.screen6 .text-h2 {
+    color: white;
+}
+
+.screen6 .text-h2:after {
+    background-color: white;
+}
+
+.screen6 {
+    text-align: center;
+    background-image: url("/assets/background-stylish.png");
+    background-size: cover;
+}
+
+.brightness {
+    background-color: rgba(0,0,0,50%);
+    padding-bottom: 50px;
+}
