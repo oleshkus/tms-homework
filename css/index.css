@@ -662,27 +662,39 @@ footer p {
 
 .inputs {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
+    width: 100%;
 }
-.inputs section {
-    justify-content: center;
+.inputs form {
+    display: flex;
     align-items: center;
-
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 #small {
     height: 40px;
     width: 100%;
     border: none;
     border-bottom: solid #BDBDBD 2px;
-    margin-bottom: 50px;
     font-size: 14px;
 }
 
 #big {
     height: 200px;
-    width: 500px;
+    width: 100%;
     border: none;
     border-bottom: solid #BDBDBD 2px;
     font-size: 14px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#btn {
+    width: 370px;
+    height: 58px;
+    font-size: 18px;
+    background-color: #EC7979;
+    color: white;
 }
