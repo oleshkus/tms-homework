@@ -11,31 +11,56 @@
 /*}*/
 
 @media (max-width: 1024px) {
-    .socials .restriction   {
+    .socials .restriction {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .socials .blocktxt {
         text-align: center;
     }
+
     .links .block img {
         width: 40px;
         height: 40px;
     }
-    .links{
+
+    .links {
         gap: 20px;
     }
+
     .restriction {
         gap: 30px;
     }
+
     .screen2 .restriction {
         width: 100%;
     }
+}
 
+@media (max-width: 768px) {
+    .info img {
+        visibility: hidden;
+    }
+
+    main .restriction{
+        flex-direction: column;
+    }
+
+    .restriction {
+        text-align: center;
+        justify-content: center;
+    }
+
+    main .getcontact {
+        justify-content: center;
+        align-items: center;
+    }
 
 }
+
 
 * {
     margin: 0;
