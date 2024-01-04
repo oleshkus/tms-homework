@@ -362,16 +362,22 @@
 
         <div class="inputs">
             <form action="" method="post">
-                <input type="text" name="" id="small" placeholder="Name">
-                <input type="email" name="" id="small" placeholder="Email">
-                <input type="password" name="" id="small" placeholder="Password">
+                <div class="fullform">
+                    <div class="small">
+                        <input type="text" name="" id="small__item" placeholder="Name">
+                        <input type="email" name="" id="small__item" placeholder="Email">
+                        <input type="password" name="" id="small__item" placeholder="Password">
+                    </div>
+                    <div class="big">
+                        <textarea name="" id="big__item" placeholder="Message"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" id="btn">Send</button>
+
             </form>
 
-            <form action="" method="post">
-                <textarea name="" id="big" placeholder="Message"></textarea>
-            </form>
         </div>
-        <button type="submit" id="btn">Send</button>
     </div>
 
 </div>
