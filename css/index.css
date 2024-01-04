@@ -30,6 +30,9 @@
     .restriction {
         gap: 30px;
     }
+    .screen2 .restriction {
+        width: 100%;
+    }
 
 
 }
